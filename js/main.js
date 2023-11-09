@@ -8,8 +8,8 @@ let numbersRequest1 = prompt("inserisci un nuomero");
 let numbersRequest2 = prompt("Inserisci un'altro numero");
 
 // Converto le variabili numbers (che era un testo per via del prompt) in un NUMERO
-numbersRequest1= parseInt(numbersRequest1);
-numbersRequest2= parseInt(numbersRequest2);
+numbersRequest1 = parseInt(numbersRequest1);
+numbersRequest2 = parseInt(numbersRequest2);
 
 // Elaborazione delle statistiche e delle passwords
 let divOfNumberRequest = numbersRequest1 / numbersRequest2
